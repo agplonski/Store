@@ -9,7 +9,6 @@ gem 'mysql2'
 gem 'pg'
 gem 'thin'
 gem 'taps'
-gem 'spree_heroku', :git => 'git://github.com/joneslee85/spree-heroku.git', :branch => '0-70-stable'
 
 
 # Gems used only for assets and not required
