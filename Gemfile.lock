@@ -15,6 +15,13 @@ GIT
     spree_gateway (1.1.0)
       spree_core (~> 1.0)
 
+GIT
+  remote: git://github.com/spree/spree_paypal_express.git
+  revision: dd7834bd2f85654e29219013525259afe0c89046
+  specs:
+    spree_paypal_express (1.2.0)
+      spree_core (~> 1.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -273,6 +280,7 @@ DEPENDENCIES
   spree (= 1.2.0)
   spree_auth_devise!
   spree_gateway!
+  spree_paypal_express!
   spree_skrill
   spree_usa_epay
   taps
