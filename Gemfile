@@ -47,3 +47,4 @@ gem 'spree_auth_devise', :git => 'git://github.com/spree/spree_auth_devise'
 gem 'spree_gateway', :git => 'git://github.com/spree/spree_gateway.git', :branch => "1-1-stable" # make sure to include after spree
 gem "spree_paypal_express", :git => "git://github.com/spree/spree_paypal_express.git"
 gem "spree_auth_devise", :git => 'git://github.com/spree/spree_auth_devise'
+gem 'spree_auth_devise', :git => 'git://github.com/spree/spree_auth_devise'
