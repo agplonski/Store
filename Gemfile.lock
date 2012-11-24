@@ -1,6 +1,24 @@
 GIT
+  remote: git://github.com/Shopify/active_shipping
+  revision: 3e5b41101f7d70fd00eef99d479e1f9d143835ae
+  specs:
+    active_shipping (0.9.14)
+      active_utils (>= 1.0.1)
+      activesupport (>= 2.3.5)
+      builder
+      i18n
+      json (>= 1.5.1)
+
+GIT
+  remote: git://github.com/spree/spree_active_shipping
+  revision: c42ea2364ed6723f2b0f814bfb65212f2a6c006f
+  specs:
+    spree_active_shipping (1.1.0)
+      spree_core (~> 1.0)
+
+GIT
   remote: git://github.com/spree/spree_auth_devise
-  revision: ece3df3e14d45c98a06613e2000b20d326dd51e0
+  revision: b8de23d97f3ec417f9aad44ec0395240b782030c
   specs:
     spree_auth_devise (1.0.0)
       cancan (= 1.6.7)
@@ -276,6 +294,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  active_shipping!
   aws-s3
   coffee-rails (~> 3.2.1)
   jquery-rails
@@ -284,6 +303,7 @@ DEPENDENCIES
   rails (= 3.2.8)
   sass-rails (~> 3.2.3)
   spree (= 1.2.0)
+  spree_active_shipping!
   spree_auth_devise!
   spree_gateway!
   spree_paypal_express!

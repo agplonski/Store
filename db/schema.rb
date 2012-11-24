@@ -304,7 +304,7 @@ ActiveRecord::Schema.define(:version => 20121027040755) do
   add_index "spree_product_properties", ["product_id"], :name => "index_product_properties_on_product_id"
 
   create_table "spree_products", :force => true do |t|
-    t.string   "name",                 :default => "", :null => false
+    t.string   "name",                                :null => false
     t.text     "description"
     t.datetime "available_on"
     t.datetime "deleted_at"
@@ -313,9 +313,9 @@ ActiveRecord::Schema.define(:version => 20121027040755) do
     t.string   "meta_keywords"
     t.integer  "tax_category_id"
     t.integer  "shipping_category_id"
-    t.datetime "created_at",                           :null => false
-    t.datetime "updated_at",                           :null => false
-    t.integer  "count_on_hand",        :default => 0,  :null => false
+    t.datetime "created_at",                          :null => false
+    t.datetime "updated_at",                          :null => false
+    t.integer  "count_on_hand",        :default => 0, :null => false
   end
 
   add_index "spree_products", ["available_on"], :name => "index_spree_products_on_available_on"
@@ -568,7 +568,7 @@ ActiveRecord::Schema.define(:version => 20121027040755) do
   add_index "spree_users", ["persistence_token"], :name => "index_users_on_persistence_token"
 
   create_table "spree_variants", :force => true do |t|
-    t.string   "sku",                                         :default => "",    :null => false
+    t.string   "sku",                                                            :null => false
     t.decimal  "price",         :precision => 8, :scale => 2,                    :null => false
     t.decimal  "weight",        :precision => 8, :scale => 2
     t.decimal  "height",        :precision => 8, :scale => 2
