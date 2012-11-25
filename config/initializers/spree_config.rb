@@ -1,0 +1,5 @@
+Spree::ActiveShipping::Config.set(:usps_login => "104THEHA3891")
+Spree::ActiveShipping::Config.set(:origin_country => "US")
+Spree::ActiveShipping::Config.set(:origin_state => "MN")
+Spree::ActiveShipping::Config.set(:origin_city => "New_Prague")
+Spree::ActiveShipping::Config.set(:origin_zip => "56071")
